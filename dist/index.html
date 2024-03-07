@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Basketball Scoreboard</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--    home part    -->
+      <div class="home">
+        <h1>HOME</h1>
+        
+        <div class="home-panel">
+          <h1 class="digital-font" id="home-count">0</h1>
+        </div>
+      
+        <div  class="buttons">
+          <button class="digital-font"  onclick="plus1H()">+1</button>
+          <button class="digital-font"  onclick="plus2H()">+2</button>
+          <button class="digital-font"  onclick="plus3H()">+3</button>
+          <button id="reset" onclick="resetH()">Reset</button>
+        </div>
+      </div>
+      
+      <!--    guest part    -->
+      <div class="guest">
+        <h1>GUEST</h1>
+        
+        <div class="guest-panel">
+          <h1 class="digital-font" id="guest-count">0</h1>
+        </div>
+        
+        <div class="buttons">
+          <button class="digital-font"  onclick="plus1G()">+1</button>
+          <button class="digital-font"  onclick="plus2G()">+2</button>
+          <button class="digital-font"  onclick="plus3G()">+3</button>
+          <button id="reset" onclick="resetG()">Reset</button>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
